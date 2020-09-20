@@ -22,8 +22,8 @@ if (! empty($_SESSION["userId"])) {
 <body>
     <div>
         <div class="dashboard">
-            <div class="member-dashboard">Welcome <b><?php echo $displayName; ?></b>, You have successfully logged in!<br>
-                Click to <a href="./logout.php" class="logout-button">Logout</a>
+            <div class="member-dashboard"><b><?php echo $displayName; ?></b>
+                 - <a href="./logout.php" class="logout-button">Logout</a>
             </div>
         </div>
     </div>

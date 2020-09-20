@@ -81,16 +81,18 @@ body {
 }
 
 .dashboard {
-    background: #d2edd5;
-    text-align: center;
-    margin: 15px auto;
-    line-height: 1.8em;
+    display: flex;
+    justify-content: flex-end;
+    background: #d2edeb;
+    margin: 0.5rem auto;
+    line-height: 1.0rem;
     color: #333;
     border-radius: 4px;
     padding: 30px;
-    max-width: 400px;
-    border: #c8e0cb 1px solid;
+    border: #c8dce0 1px solid;
 }
+
+
 .error-info {
     color: #FF0000;
     margin-left: 10px;
